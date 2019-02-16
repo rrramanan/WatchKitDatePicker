@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EE8FDCF2215430B002C8718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8FDCE2215430B002C8718 /* AppDelegate.swift */; };
+		4EE8FDD12215430B002C8718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8FDD02215430B002C8718 /* ViewController.swift */; };
+		4EE8FDD42215430C002C8718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8FDD22215430C002C8718 /* Main.storyboard */; };
+		4EE8FDD62215433A002C8718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8FDD52215433A002C8718 /* Assets.xcassets */; };
+		4EE8FDD92215433A002C8718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8FDD72215433A002C8718 /* LaunchScreen.storyboard */; };
+		4EE8FDDE2215433A002C8718 /* DatePicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4EE8FDDD2215433A002C8718 /* DatePicker WatchKit App.app */; };
+		4EE8FDE42215433A002C8718 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8FDE22215433A002C8718 /* Interface.storyboard */; };
+		4EE8FDE62215433E002C8718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8FDE52215433E002C8718 /* Assets.xcassets */; };
+		4EE8FDED2215433E002C8718 /* DatePicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4EE8FDEC2215433E002C8718 /* DatePicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4EE8FDF22215433E002C8718 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8FDF12215433E002C8718 /* InterfaceController.swift */; };
+		4EE8FDF42215433E002C8718 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8FDF32215433E002C8718 /* ExtensionDelegate.swift */; };
+		4EE8FDF62215433F002C8718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8FDF52215433F002C8718 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EE8FDDF2215433A002C8718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE8FDC32215430A002C8718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE8FDDC2215433A002C8718;
+			remoteInfo = "DatePicker WatchKit App";
+		};
+		4EE8FDEE2215433E002C8718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE8FDC32215430A002C8718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE8FDEB2215433E002C8718;
+			remoteInfo = "DatePicker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4EE8FDFD2215433F002C8718 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4EE8FDED2215433E002C8718 /* DatePicker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE8FE012215433F002C8718 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4EE8FDDE2215433A002C8718 /* DatePicker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4EE8FDCB2215430B002C8718 /* DatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE8FDCE2215430B002C8718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EE8FDD02215430B002C8718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EE8FDD32215430C002C8718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EE8FDD52215433A002C8718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EE8FDD82215433A002C8718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EE8FDDA2215433A002C8718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE8FDDD2215433A002C8718 /* DatePicker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DatePicker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE8FDE32215433A002C8718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4EE8FDE52215433E002C8718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EE8FDE72215433E002C8718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE8FDEC2215433E002C8718 /* DatePicker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DatePicker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE8FDF12215433E002C8718 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4EE8FDF32215433E002C8718 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4EE8FDF52215433F002C8718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EE8FDF72215433F002C8718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE8FDC82215430B002C8718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE8FDE92215433E002C8718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE8FDC22215430A002C8718 = {
+			isa = PBXGroup;
+			children = (
+				4EE8FDCD2215430B002C8718 /* DatePicker */,
+				4EE8FDE12215433A002C8718 /* DatePicker WatchKit App */,
+				4EE8FDF02215433E002C8718 /* DatePicker WatchKit Extension */,
+				4EE8FDCC2215430B002C8718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE8FDCC2215430B002C8718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE8FDCB2215430B002C8718 /* DatePicker.app */,
+				4EE8FDDD2215433A002C8718 /* DatePicker WatchKit App.app */,
+				4EE8FDEC2215433E002C8718 /* DatePicker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE8FDCD2215430B002C8718 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				4EE8FDCE2215430B002C8718 /* AppDelegate.swift */,
+				4EE8FDD02215430B002C8718 /* ViewController.swift */,
+				4EE8FDD22215430C002C8718 /* Main.storyboard */,
+				4EE8FDD52215433A002C8718 /* Assets.xcassets */,
+				4EE8FDD72215433A002C8718 /* LaunchScreen.storyboard */,
+				4EE8FDDA2215433A002C8718 /* Info.plist */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		4EE8FDE12215433A002C8718 /* DatePicker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4EE8FDE22215433A002C8718 /* Interface.storyboard */,
+				4EE8FDE52215433E002C8718 /* Assets.xcassets */,
+				4EE8FDE72215433E002C8718 /* Info.plist */,
+			);
+			path = "DatePicker WatchKit App";
+			sourceTree = "<group>";
+		};
+		4EE8FDF02215433E002C8718 /* DatePicker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4EE8FDF12215433E002C8718 /* InterfaceController.swift */,
+				4EE8FDF32215433E002C8718 /* ExtensionDelegate.swift */,
+				4EE8FDF52215433F002C8718 /* Assets.xcassets */,
+				4EE8FDF72215433F002C8718 /* Info.plist */,
+			);
+			path = "DatePicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EE8FDCA2215430B002C8718 /* DatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE8FE022215433F002C8718 /* Build configuration list for PBXNativeTarget "DatePicker" */;
+			buildPhases = (
+				4EE8FDC72215430B002C8718 /* Sources */,
+				4EE8FDC82215430B002C8718 /* Frameworks */,
+				4EE8FDC92215430B002C8718 /* Resources */,
+				4EE8FE012215433F002C8718 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE8FDE02215433A002C8718 /* PBXTargetDependency */,
+			);
+			name = DatePicker;
+			productName = DatePicker;
+			productReference = 4EE8FDCB2215430B002C8718 /* DatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EE8FDDC2215433A002C8718 /* DatePicker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE8FDFE2215433F002C8718 /* Build configuration list for PBXNativeTarget "DatePicker WatchKit App" */;
+			buildPhases = (
+				4EE8FDDB2215433A002C8718 /* Resources */,
+				4EE8FDFD2215433F002C8718 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE8FDEF2215433E002C8718 /* PBXTargetDependency */,
+			);
+			name = "DatePicker WatchKit App";
+			productName = "DatePicker WatchKit App";
+			productReference = 4EE8FDDD2215433A002C8718 /* DatePicker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4EE8FDEB2215433E002C8718 /* DatePicker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE8FDFA2215433F002C8718 /* Build configuration list for PBXNativeTarget "DatePicker WatchKit Extension" */;
+			buildPhases = (
+				4EE8FDE82215433E002C8718 /* Sources */,
+				4EE8FDE92215433E002C8718 /* Frameworks */,
+				4EE8FDEA2215433E002C8718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DatePicker WatchKit Extension";
+			productName = "DatePicker WatchKit Extension";
+			productReference = 4EE8FDEC2215433E002C8718 /* DatePicker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE8FDC32215430A002C8718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Vinod Ramanathan";
+				TargetAttributes = {
+					4EE8FDCA2215430B002C8718 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4EE8FDDC2215433A002C8718 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4EE8FDEB2215433E002C8718 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 4EE8FDC62215430A002C8718 /* Build configuration list for PBXProject "DatePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EE8FDC22215430A002C8718;
+			productRefGroup = 4EE8FDCC2215430B002C8718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE8FDCA2215430B002C8718 /* DatePicker */,
+				4EE8FDDC2215433A002C8718 /* DatePicker WatchKit App */,
+				4EE8FDEB2215433E002C8718 /* DatePicker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE8FDC92215430B002C8718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE8FDD92215433A002C8718 /* LaunchScreen.storyboard in Resources */,
+				4EE8FDD62215433A002C8718 /* Assets.xcassets in Resources */,
+				4EE8FDD42215430C002C8718 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE8FDDB2215433A002C8718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE8FDE62215433E002C8718 /* Assets.xcassets in Resources */,
+				4EE8FDE42215433A002C8718 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE8FDEA2215433E002C8718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE8FDF62215433F002C8718 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE8FDC72215430B002C8718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE8FDD12215430B002C8718 /* ViewController.swift in Sources */,
+				4EE8FDCF2215430B002C8718 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE8FDE82215433E002C8718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE8FDF42215433E002C8718 /* ExtensionDelegate.swift in Sources */,
+				4EE8FDF22215433E002C8718 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EE8FDE02215433A002C8718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EE8FDDC2215433A002C8718 /* DatePicker WatchKit App */;
+			targetProxy = 4EE8FDDF2215433A002C8718 /* PBXContainerItemProxy */;
+		};
+		4EE8FDEF2215433E002C8718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EE8FDEB2215433E002C8718 /* DatePicker WatchKit Extension */;
+			targetProxy = 4EE8FDEE2215433E002C8718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EE8FDD22215430C002C8718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE8FDD32215430C002C8718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EE8FDD72215433A002C8718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE8FDD82215433A002C8718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4EE8FDE22215433A002C8718 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE8FDE32215433A002C8718 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EE8FDF82215433F002C8718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EE8FDF92215433F002C8718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EE8FDFB2215433F002C8718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9K2N3MSD5;
+				INFOPLIST_FILE = "DatePicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.DatePicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		4EE8FDFC2215433F002C8718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9K2N3MSD5;
+				INFOPLIST_FILE = "DatePicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.DatePicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		4EE8FDFF2215433F002C8718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9K2N3MSD5;
+				IBSC_MODULE = DatePicker_WatchKit_Extension;
+				INFOPLIST_FILE = "DatePicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.DatePicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		4EE8FE002215433F002C8718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9K2N3MSD5;
+				IBSC_MODULE = DatePicker_WatchKit_Extension;
+				INFOPLIST_FILE = "DatePicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.DatePicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		4EE8FE032215433F002C8718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.DatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EE8FE042215433F002C8718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.DatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE8FDC62215430A002C8718 /* Build configuration list for PBXProject "DatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE8FDF82215433F002C8718 /* Debug */,
+				4EE8FDF92215433F002C8718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE8FDFA2215433F002C8718 /* Build configuration list for PBXNativeTarget "DatePicker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE8FDFB2215433F002C8718 /* Debug */,
+				4EE8FDFC2215433F002C8718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE8FDFE2215433F002C8718 /* Build configuration list for PBXNativeTarget "DatePicker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE8FDFF2215433F002C8718 /* Debug */,
+				4EE8FE002215433F002C8718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE8FE022215433F002C8718 /* Build configuration list for PBXNativeTarget "DatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE8FE032215433F002C8718 /* Debug */,
+				4EE8FE042215433F002C8718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE8FDC32215430A002C8718 /* Project object */;
+}
